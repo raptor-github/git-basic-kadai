@@ -1,0 +1,19 @@
+PS C:\Users\masahiko\Desktop\git_challenge> git add .\hello_world.txt
+PS C:\Users\masahiko\Desktop\git_challenge> git commit -m "hello_world.txtを追加"
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\masahiko\Desktop\git_challenge> git add .\hello_world.txt
+PS C:\Users\masahiko\Desktop\git_challenge> git commit -m "日本語訳を追記"
+[master 4da5112] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\masahiko\Desktop\git_challenge> git remote add origin https://github.com/raptor-github/git-basic-kadai.git
+PS C:\Users\masahiko\Desktop\git_challenge> git push -u origin master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (6/6), 559 bytes | 559.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/raptor-github/git-basic-kadai.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
